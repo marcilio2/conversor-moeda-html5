@@ -4,7 +4,7 @@ ovly.conversor = {
 	versao: "1",
 	chamarAPI: function(){
 		console.log("Chamando API");
-		const endpoint = "https://api.exchangeratesapi.io/latest";
+		const endpoint = "api/latest";
 		var oParametros = {
 			base: $("#moeda_origem").val()
 		};
